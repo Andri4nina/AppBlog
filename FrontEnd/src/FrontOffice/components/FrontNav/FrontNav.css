@@ -1,0 +1,37 @@
+.header .menu .sub-menu{
+    transform-origin: top;
+    transform:scaleY(0) ;
+    -webkit-transform:scaleY(0) ;
+    -moz-transform:scaleY(0) ;
+    -ms-transform:scaleY(0) ;
+    -o-transform:scaleY(0) ;
+    visibility: 0;
+    opacity: 0;
+}
+
+
+.header .menu .sub-menu span{
+    background-image: linear-gradient(hsl(0,0%,100%) ,hsl(0,0%,100%));
+    background-size: 0 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size .5s ease;
+    -webkit-transition: background-size .5s ease;
+    -moz-transition: background-size .5s ease;
+    -ms-transition: background-size .5s ease;
+    -o-transition: background-size .5s ease;
+}
+
+.header .menu .sub-menu li:hover > a > span{
+    background-size: 100% 1px;
+}
+
+.header .menu li:hover >.sub-menu {
+    opacity: 1;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    visibility: visible;
+}

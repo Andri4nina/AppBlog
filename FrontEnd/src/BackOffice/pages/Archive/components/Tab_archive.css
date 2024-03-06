@@ -1,0 +1,15 @@
+
+thead{
+    background-color:var(--skin--color1);
+    color: white;
+  }
+  
+  tbody tr{
+    border-bottom: 1px solid var(--bg-light);
+    transition: all ease 0.3s ;
+  }
+  
+  tbody tr:hover{
+    background-color: var(--bg-light);
+    transition: all ease 0.3s ;
+  }
