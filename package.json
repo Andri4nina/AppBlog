@@ -1,0 +1,10 @@
+{
+  "name": "Gestion de BLog",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start:dev --prefix back-end\" \"npm run dev --prefix FrontEnd\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
